@@ -5,7 +5,7 @@ This repository provides a Homebrew tap for installing `unimail-client` on macOS
 ## Package
 
 - Name: `unimail-client`
-- Current version: `0.0.2`
+- Current version: `0.0.4`
 - Upstream repository: <https://github.com/unimails/unimail-client>
 - Supported macOS architectures: Apple Silicon (`arm64`) and Intel (`amd64`)
 
@@ -36,7 +36,7 @@ brew untap unimails/accloud-tool
 
 ## Formula
 
-The formula is defined in [Formula/unimail-client.rb](Formula/unimail-client.rb). It downloads the official `v0.0.2` release archive from GitHub and selects the matching macOS archive for the local CPU architecture.
+The formula is defined in [Formula/unimail-client.rb](Formula/unimail-client.rb). It downloads the official `v0.0.4` release archive from GitHub and selects the matching macOS archive for the local CPU architecture.
 
 Release checksums are read from the upstream `.sha256` files:
 

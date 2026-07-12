@@ -5,7 +5,7 @@
 ## 软件信息
 
 - 名称：`unimail-client`
-- 当前版本：`0.0.2`
+- 当前版本：`0.0.4`
 - 上游开源仓库：<https://github.com/unimails/unimail-client>
 - 支持的 macOS 架构：Apple Silicon (`arm64`) 和 Intel (`amd64`)
 
@@ -36,7 +36,7 @@ brew untap unimails/accloud-tool
 
 ## Formula 说明
 
-Formula 文件位于 [Formula/unimail-client.rb](Formula/unimail-client.rb)。它会从 GitHub 官方 release 下载 `v0.0.2` 的归档包，并根据当前 macOS 的 CPU 架构自动选择对应文件：
+Formula 文件位于 [Formula/unimail-client.rb](Formula/unimail-client.rb)。它会从 GitHub 官方 release 下载 `v0.0.4` 的归档包，并根据当前 macOS 的 CPU 架构自动选择对应文件：
 
 - Apple Silicon：`unimail-client_darwin_arm64.tar.gz`
 - Intel：`unimail-client_darwin_amd64.tar.gz`
